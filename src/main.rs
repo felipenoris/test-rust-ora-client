@@ -9,6 +9,7 @@ fn main() {
         _ => println!("falhou em pingar o servidor..."),
     };
 
+/*
     let sql = "SELECT ID FROM TB_TEST";
     let rows = conn.query(sql, &[]).unwrap();
     
@@ -17,4 +18,5 @@ fn main() {
         let id: i32 = row.get("ID").unwrap();
         println!("ID = {}", id);
     }
+*/
 }
